@@ -11,6 +11,7 @@ const counter = ["1", "2", "3"]
 // }
 
 // this is my corrected version
+//I had a lot of help from my tech mentor to figure this out. The continue statement I learned from him. I'm not too familiar on it, but I will do more research.
 function sum(arr) {
     let total = 0;
     for (let i = 0; i < arr.length; i++) {
@@ -32,6 +33,8 @@ for (let i = 0; i < process.argv.length; i++) {
 console.log(sum(myNumbers));
 
 
+
+//below is just code me and m tech mentor were trying out.
 // delete myNumbers[2]; /* [0, 1, 2] */
 // myNumbers.length = 2; 
 /* [0, 1] {
